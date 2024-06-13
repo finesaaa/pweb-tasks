@@ -1,0 +1,172 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+
+body {
+    color : #000;
+    background-color: #fcc612;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-image: url("img/bg-food.jpg");
+    font-family: "Inter", sans-serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+.wrapper {
+    width: 970px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+header {
+    height: 170px;
+    background-image: url("img/header.jpg");
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    /* text-indent: -9999px ; */
+    text-align: center;
+    margin: auto auto;
+    font-family: "Berkshire Swash", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    color: #FFF;
+}
+
+nav, footer{
+    clear: both;
+    color: #ffffff;
+    background-color: #f6cb34;
+    height: 48px;
+}
+
+nav {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 12px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+    padding-top: 10px;
+}
+
+nav li a {
+    color: #FFFFFF;
+}
+
+nav li a:hover, nav li a.current{
+    color: #fcc612;
+}
+ 
+section.home {
+    margin-top: 20px;
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+hgroup{
+    margin-top: 40px;
+}
+
+figure{
+    float: left;
+    width: 300px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+figcaption{
+    font-size: 75%;
+    text-align: left;
+    color: #141E2F;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+aside{
+    width: 230px;
+    float: left;
+    padding: 0px 20px 0px 30px; 
+}
+
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h3, h4{
+    font-weight: normal;
+}
+
+h2 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+p.tag {
+    margin: auto auto auto 5px;
+    padding: 0px !important;
+    color: #fcc612;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+aside h2{
+    padding: 30px 0px 10px 0px;
+    color: #fcc612;
+}
+
+footer{
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
+
+p {
+    font-size: 14px;
+    padding: 0px !important;
+}
+
+.center-cropped {
+    width: 300px;
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }

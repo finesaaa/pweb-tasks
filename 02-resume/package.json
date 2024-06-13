@@ -1,0 +1,24 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Fiqey Indrati Eka Sari's Resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finesaaa/resume.git"
+  },
+  "author": "Fiqey Indriati Eka Sari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finesaaa/resume/issues"
+  },
+  "homepage": "https://github.com/finesaaa/resume#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  }
+}
